@@ -1,0 +1,36 @@
+# Python
+.venv
+venv
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+.mypy_cache
+.ruff_cache
+dist/
+build/
+
+# Data
+results/**
+input/**
+
+# Environment
+.env
+.env.local
+
+# Editor and IDE
+.claude/
+.vscode/
+.zed/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
